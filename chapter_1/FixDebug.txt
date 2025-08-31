@@ -1,0 +1,22 @@
+public class FixDebug One
+{
+   /* This program displays a greeting */
+   public static void Main(String args)   
+   {
+      Systm.out.println("Hello World!")         
+   }
+
+/*
+List down the spotted bugs below:
+
+e.g.
+- // wrong syntax for access modifier "publlic" instead of "public"
+
+Bugs:
+1. The Systm.out.println is misspelled. It should be “System.out.println”.
+2. The semicolon after println(“Hello World!”) is missing.
+3. A class name can’t have spaces.
+4. The “main” method must be lowercase.
+5. The array on “(String args)” is missing. It should be “(String[] args)”.
+
+*/
