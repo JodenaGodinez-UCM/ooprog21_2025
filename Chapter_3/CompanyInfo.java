@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
   class CompanyInfo {
    public static void main(String[] args) {
