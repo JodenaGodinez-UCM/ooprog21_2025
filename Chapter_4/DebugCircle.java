@@ -22,10 +22,4 @@ public class DebugCircle {
         return area;
     }
 
-    public static void main(String[] args) {
-        DebugCircle c = new DebugCircle(5); 
-        System.out.println("Radius: " + c.getRadius());
-        System.out.println("Diameter: " + c.getDiameter());
-        System.out.println("Area: " + c.getArea());
-    }
 }
