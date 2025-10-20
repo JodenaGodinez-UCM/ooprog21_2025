@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 public class BankBalance {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+  public static void main(String[] args) {
+   Scanner input = new Scanner(System.in);
         
-        double balance;
-        final double INTEREST_RATE = 0.03;  // 3% interest rate
-        int year = 0;
-        int choice;
+     double balance;
+     final double INTEREST_RATE = 0.03;  // 3% interest rate
+     int year = 0;
+     int choice;
 
         System.out.print("Enter initial bank balance > ");
         balance = input.nextDouble();
@@ -28,3 +28,4 @@ public class BankBalance {
         input.close();
     }
 }
+
