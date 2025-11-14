@@ -1,7 +1,6 @@
-
 import java.util.*;
 
-public class DebugSeven1 {
+ public class DebugSeven1 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         String name1, name2, name3;
@@ -33,3 +32,4 @@ public class DebugSeven1 {
         }
     }
 }
+
